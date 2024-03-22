@@ -37,4 +37,4 @@ sleep 10
 
 curl -X GET \
      -H "Accept: application/vnd.kafka.json.v2+json" \
-     http://localhost:38082/consumers/cg1/instances/ci1/records |jq .
+     http://localhost:38082/consumers/cg1/instances/ci1/records | jq .
